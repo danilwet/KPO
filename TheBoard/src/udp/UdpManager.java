@@ -1,15 +1,12 @@
-package com.bondar.udp;
+
+package udp;
 
 import java.net.*;
 import java.io.*;
 import java.nio.ByteBuffer;
 
-/**
- *
- * @author truebondar
- */
 public class UdpManager implements Runnable {
-
+    
     public final static byte QUIT_MESSAGE = 0;
     public final static byte CONNECT_MESSAGE = 1;
     public final static byte APPLY_CONNECT_MESSAGE = 2;

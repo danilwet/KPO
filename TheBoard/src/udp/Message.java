@@ -1,4 +1,4 @@
-package com.bondar.udp;
+package udp;
 
 /**
  *

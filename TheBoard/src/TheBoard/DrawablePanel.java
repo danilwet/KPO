@@ -1,4 +1,4 @@
-package com.bondar.webdraw;
+package TheBoard;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

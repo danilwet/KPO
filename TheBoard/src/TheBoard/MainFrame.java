@@ -1,7 +1,7 @@
-package com.bondar.webdraw;
+package TheBoard;
 
-import com.bondar.udp.DatagramSocketListener;
-import com.bondar.udp.UdpManager;
+import udp.DatagramSocketListener;
+import udp.UdpManager;
 import java.awt.*;
 import java.awt.event.*;
 import java.text.ParseException;
