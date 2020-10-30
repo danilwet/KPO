@@ -52,8 +52,12 @@ public class MainFrame extends JFrame implements DatagramSocketListener {
 	colorButton.addActionListener(changeColorListener);
 	paramsPanel.add(colorButton);
         
-        final JButton clearLabel = new JButton("Очистить");
-	paramsPanel.add(clearLabel);
+        final JButton clearButton = new JButton("Очистить");
+        clearButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+	    }
+        });
+        paramsPanel.add(clearButton);
         
 	// Толщина
 	final JLabel textLabel = new JLabel("Толщина:");
